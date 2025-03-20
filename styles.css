@@ -265,15 +265,17 @@ ul {
 
 .btn-black {
     background-color: black;
+    font-size: 15px;
+    height: 65x;
     color: aliceblue;
     padding: 25px;
-    border-radius: 30px;
+    border-radius: 20px;
 
 }
 
 .btn-black:hover {
-    background-color: rgb(120, 62, 62);
-    color: rgb(73, 150, 217);
+    background-color:#a278da;
+    color: rgb(13, 14, 15);
     cursor: pointer;
 }
 
@@ -288,8 +290,8 @@ ul {
 }
 
 .btn-lined:hover {
-    background-color: rgb(207, 125, 125);
-    color: rgb(178, 185, 192);
+    background-color:#a278da;
+    color: rgb(13, 14, 15);
     cursor: pointer;
 }
 
@@ -310,7 +312,7 @@ ul {
 .submit:hover {
 
     background-color: rgb(252, 245, 245);
-    color: rgb(63, 85, 104);
+    color: rgb(23, 66, 104);
     padding: 20px;
     border-radius: 25px;
 }
@@ -394,8 +396,9 @@ a {
 }
 
 .card-back {
-    background-color: #7daee6;
+    background-color: #3c79be;
     color: #f9faf5;
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
