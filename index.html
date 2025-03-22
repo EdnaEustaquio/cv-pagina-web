@@ -12,14 +12,16 @@
 <body>
     <div class="sticky-nav">
         <ul>
-            <li class="l-1">
+            <li class="l-1" onclick="window.location.hash='seccion-educacion'">
+               
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bank"
                     viewBox="0 0 16 16">
                     <path
                         d="m8 0 6.61 3h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.38l.5 2a.498.498 0 0 1-.485.62H.5a.498.498 0 0 1-.485-.62l.5-2A.5.5 0 0 1 1 13V6H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 3h.89zM3.777 3h8.447L8 1zM2 6v7h1V6zm2 0v7h2.5V6zm3.5 0v7h1V6zm2 0v7H12V6zM13 6v7h1V6zm2-1V4H1v1zm-.39 9H1.39l-.25 1h13.72z" />
                 </svg>
+            
             </li >
-            <li class="l-2">
+            <li class="l-2" onclick="window.location.hash='seccion-portafolio'">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                     class="bi bi-suitcase-lg" viewBox="0 0 16 16">
                     <path
@@ -27,7 +29,7 @@
                 </svg>
             </li>
 
-            <li class="l-3">
+            <li class="l-3" onclick="window.location.hash='seccion-contacto'">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send"
                     viewBox="0 0 16 16">
                     <path
@@ -65,7 +67,10 @@
                     <button class="btn-black" onclick="window.location.href='https://github.com/EdnaEustaquio';">
                         GitHub
                       </button>
-                    <button class="btn-lined"> CV DOWLOAD</button>
+                      <a href="cv-Edna.pdf" download>
+                        <button class="btn-lined">CV DOWNLOAD</button>
+                    </a>
+                    
                 </div>
 
             </div>
@@ -93,7 +98,7 @@
             </div>
         </div>
 
-        <div class="section4">
+        <div class="section4" id="seccion-educacion">
             <div class="subsection2">
                 <h2>Educación</h2>
                 <p>BootCamp JAVA<br>Desarrollador Full Stack Junior</p>
@@ -133,7 +138,7 @@
         </div>
 
 
-        <div class="section2">
+        <div class="section2" id="seccion-portafolio">
             <div class="TITULO">
                 <h1> PORTAFOLIO </h1>
             </div>
@@ -217,11 +222,7 @@
             </div>
   
 
- 
-        
 
-                
-   
         </div>
         <div class="section2">
             <div class="TITULO">
@@ -250,7 +251,7 @@
                 </svg>
             </div>
         </div>
-        <div class="section3">
+        <div class="section3"  id="seccion-contacto" >
             <form id="form">
                 <div class="namemail">
 
