@@ -24,7 +24,6 @@ body {
 }
 
 .container {
-
     max-width: 800px;
     width: 100%;
     margin: 40px 10px;
@@ -38,6 +37,18 @@ body {
     margin-bottom: 5px;
     display: flex;
     justify-content: space-between;
+}
+
+.section-logos {
+    background-color: #ffff;
+    padding: 30px;
+    border-radius: 7px;
+    margin-top: 1px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
 }
 
 .section2 {
@@ -286,7 +297,6 @@ ul {
     border-radius: 20px;
     background-color: rgb(231, 223, 223);
     color: rgb(73, 150, 217);
-
 }
 
 .btn-lined:hover {
@@ -302,7 +312,6 @@ ul {
 }
 
 .submit {
-
     background-color: black;
     color: aliceblue;
     padding: 20px;
@@ -334,12 +343,10 @@ ul {
     width: 80px;
     height: 80px;
     border: 1px solid rgb(179, 177, 177);
-    border-radius: 50px;
-
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .bi-android2 {
@@ -358,9 +365,34 @@ a {
     border-radius: 20px 20px 0px 0px;
 }
 @media (max-width: 768px) {
+ 
+    .container {
+        max-width: 800px;
+        width: 80%;
+        margin: 0px 0px;
+    }
+    .section {
+        padding: 0px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .section-logos {
+        justify-content: center;
+    }
+    .subsection {
+        width: 80%;
+    }
     .section5-portafolio {
         grid-template-columns: 1fr; /* Pasa a una columna en pantallas pequeñas */
     }
+    .btn-lined {
+        margin-top: 15px;
+        padding: 20px;
+    }
+  
 }
 /* EFECTO DE TARJETAS */
 .card-inner {
