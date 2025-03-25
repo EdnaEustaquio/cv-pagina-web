@@ -304,6 +304,16 @@ ul {
     color: rgb(13, 14, 15);
     cursor: pointer;
 }
+.status2:hover {
+    background-color:#a278da;
+    color: rgb(13, 14, 15);
+    cursor: pointer;
+}
+.circulo:hover{
+    background-color: rgb(231, 223, 223);
+    transform: scale(1.2);
+
+}
 
 .seccion.title {
     padding-top: 0px;
@@ -324,6 +334,17 @@ ul {
     color: rgb(23, 66, 104);
     padding: 20px;
     border-radius: 25px;
+}
+.l-1:hover {
+    background-color: #a278da !important;
+}
+.l-2:hover {
+    background-color: #a278da !important;
+}
+
+.l-3:hover {
+    background-color: #a278da;
+   
 }
 
 .cajaenvio {
@@ -391,6 +412,10 @@ a {
     .btn-lined {
         margin-top: 15px;
         padding: 20px;
+    }
+    .section2 {
+        padding: 15px 25px;
+
     }
   
 }
