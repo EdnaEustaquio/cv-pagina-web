@@ -336,10 +336,10 @@ ul {
     border-radius: 25px;
 }
 .l-1:hover {
-    background-color: #a278da !important;
+    background-color: #a278da ;
 }
 .l-2:hover {
-    background-color: #a278da !important;
+    background-color: #a278da ;
 }
 
 .l-3:hover {
@@ -476,4 +476,7 @@ a {
     height: auto; /* Mantiene la proporción original */
     border-top-left-radius: 20px; 
     border-top-right-radius: 20px;
+}
+.titulo-tarjeta{
+    color:#a278da;
 }
